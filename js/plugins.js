@@ -25,12 +25,9 @@ window.log = function(){
 		return this; 		
 	};	
 	$.fn.fullscreenrResizer = function(options) {
-		// Set bg size
 		var ratio = options.height / options.width;	
-		// Get browser window size
 		var browserwidth = $(window).width();
 		var browserheight = $(window).height();
-		// Scale the image
 		if ((browserheight/browserwidth) > ratio){
 		    $(this).height(browserheight);
 		    $(this).width(browserheight / ratio);
