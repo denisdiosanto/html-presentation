@@ -20,6 +20,7 @@ It uses:
 It will (probably) use:
 =====
 * NodeJS
+* Prefetch
 * WebSockets
 * Offline Storage
 
