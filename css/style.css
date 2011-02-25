@@ -170,19 +170,17 @@ button {  width: auto; overflow: visible; }
 	src:url("../bins/museo700.otf");
 }
 
-.slide 							{ position:absolute; top:0; left:0; z-index:5; overflow:hidden; height:100%; width:100%; }
-header h1 						{ margin:30px auto; font:normal 72px "Museo", Helvetica, Arial, sans-serif; text-align:center; padding:5px; text-shadow:1px 1px 2px #000; color:#FFF; }
-header h1 span 					{ padding:10px 20px; border-radius:10px; background:#333; }
+.slideInfo 								{ position:absolute; bottom:10px; right:10px; color:#fff; text-shadow:1px 1px 3px #000; }
+.slideInfo h1							{ padding:10px; font:normal 16px/0 "Museo", Helvetica, Arial, sans-serif; text-align:right; text-shadow:1px 1px 2px #000; bottom:0; left:30px; border-radius:10px; color:#CCC; }
+.slideInfo h2 						{ padding:5px 10px; font:normal 72px "Museo", Helvetica, Arial, sans-serif; text-align:center; text-shadow:2px 2px 2px #000; color:#FFF; border-radius:10px; background:#333; }
+.slideInfo .slideCount		{ padding:10px; font:normal 16px "Museo", Helvetica, Arial, sans-serif; text-align:right; text-shadow:1px 1px 2px #000; color:#CCC; }
 
-.caption 						{ position:absolute; padding:10px; font:normal 16px "Museo", Helvetica, Arial, sans-serif; line-height:25px; text-align:center; text-shadow:1px 1px 2px #000; bottom:0; left:30px; margin:30px auto; border-radius:10px; color:#CCC; background:#333; }
+.slideCredits 						{ position:absolute; bottom:10px; left:10px; color:#fff; text-shadow:1px 1px 3px #000; }
+.slideCredits p						{ padding:10px; font:normal 16px "Museo", Helvetica, Arial, sans-serif; text-align:left; text-shadow:1px 1px 2px #000; color:#CCC; }
 
-.timerElement 					{ width:100%; }
-.timerBar 						{ display:block; width:0px; height:5px; background:white; }
 
-footer 							{ position:absolute; padding:10px; font:normal 16px "Museo", Helvetica, Arial, sans-serif; line-height:25px; text-align:center; text-shadow:1px 1px 2px #000; bottom:0; right:30px; margin:30px auto; border-radius:10px; color:#CCC; background:#333; }
-footer p.title 					{ text-align:center; }
-footer h1 						{ font:normal 16px "Museo", Helvetica, Arial, sans-serif; }
-
+.timerElement 						{ width:100%; }
+.timerBar 								{ display:block; width:0px; height:5px; background:white; }
 
 
 
