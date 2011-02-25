@@ -1,10 +1,6 @@
 /* Author: Daniel R. C. Filho
 */
 
-// var FullscreenrOptions = {  width:1280, height:853, bgID:'#bgimg' }; 
-// jQuery.fn.fullscreenr(FullscreenrOptions);
-
-
 $(function() {
 
 	// Options for SuperBGImage
